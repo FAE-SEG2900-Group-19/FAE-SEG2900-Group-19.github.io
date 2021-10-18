@@ -1,0 +1,59 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <!-- Add an id tag to the body -->
+    <body id="body">
+        <header>
+
+            <nav>
+                <ul class="navigation">
+
+                    <li><a href="#intro">About Us</a><li>
+                    <li><a href="#home">Home</a><li>
+                    <li><a href="#projects">Projects</a><li>
+
+                </ul>
+            </nav>
+
+
+
+        </header>
+
+
+        <!-- Home Screen -->
+        <div class="home" id ="home">
+            <div class = "home-background"></div>
+                <div class = "home-text">
+                    <h1>Welcome to our Vault of Ideas</h1>
+                    <h2>Lorem ipsum</h2>
+                </div>
+
+        <!--We could put an arrow down here with JS to make it scroll down-->
+        </div>
+        <!--End of Home Screen-->
+
+        <!--Introduction Section-->
+        <div class="introduction" id ="intro">
+            <div class = "intro-background"></div>
+            <div class = "intro-text">
+
+
+            </div>
+        </div>
+        <!--intro ends-->
+
+        <!--Project Section-->
+        <div class="project-showcase" id="projects">
+            <div class="project-background"></div>
+            <div class = "project-text">
+                <h1>Completed Projects</h1>
+
+            </div>
+        </div>
+
+    </body id="body">
+
+</html>
