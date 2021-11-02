@@ -1,0 +1,30 @@
+Look of FAE website
+--------------------
+FAE website will express enficiency and rapidity with a pinch of modernity.
+
+Colors
+-------
+FAE website colors will express the efficiency of the service and will be in this range:
+-#2E803D
+-#A8FFB8
+-#54805C
+-#49CC61
+-#5CFF7A
+
+Typography
+----------
+All text except titles will be written in calibri.
+
+Iconogaphy
+----------
+All of our icons will be flat.
+
+Links
+-----
+Links' text will have the color #878380 and it will change to #6E6B68 when hovered.
+They won't also be underlined.
+
+Buttons
+--------
+Buttons will be flat with a radius of 20px. They will indeed be colored in
+the color range mentioned above
