@@ -6,59 +6,116 @@
   <title></title>
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2022.6">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style type="text/css">
-
-  nav{
-    margin:10px;
-    padding: 5px;
+  header{
+    margin:5px;
+    padding: 10px;
     border-bottom: solid black;
     border-top: solid black;
-    border-width: 100%;
+    border-width: 90%;
+    
   }
-  nav div{
-    margin-top: 25px;
+  #header_menu{
+    display: inline-flex;
   }
-                
-  nav div a{
-    margin-right: 3px;
-    margin-left: 3px;
+  
+  #menu_spacing{
+    min-width: 1000px;
+    width: 100%;
+  }
+              
+  div a{
+   padding:6px;
+   text-align: center;
+   text-decoration: none;
+   justify-content: space-around;
+  }
+  #logo{
+    font-family: Arial;
+    font-size: xx-large;
+    display: inline-flex;
+    width: 100%;
   }
   h1, h2{
     text-align: center;
+    margin-bottom: 50px;
   }
   p{
     font-size: medium;
+    text-align: center;
+  }
+  .member{
+    max-width: 400px;
+    height: 120px;
+    margin-left: 50px;
+  }
+  img{
+    width: 100px;
+    border-radius: 90%;
+    float: left;
   }
   section{
-    margin-bottom: 200px;
+    margin-bottom: 50px;
   }
     
   </style>
 </head>
 <body>
   <header>
-    <nav>
-        
-      <div> 
-        <a href="home.html">Home</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="about.html">About us</a>
-        <a href="locations.html">Locations</a>
-      </div>
-      <b style="font-family: Arial;font-size: xx-large; margin-left:90%;">fae</b>
-        
-    </nav>
+    <div id="header_menu">
+      <a href="home.html">Home</a>
+      <a href="Our drones.html">Our drones</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About us</a>
+      <a href="Office locations.html">Office Locations</a>
+      <a href="Customer support.html">Customer support</a>
+      <div id="menu_spacing"></div>
+      <div><b id="logo">fae</b></div>
+    </div>
+
   </header>
 
-<section>
-  <h1>Our story<h1>
-  <p>Some writtings</p>
-</section>
+    <section>
+      <h2>Our story</h2>
+      <p style= "margin-right: 100px; margin-left: 100px;">FAE has been created by six students of the University of Ottawa. They struggled with getting the time to shop 
+         groceries they needed and especially getting them home. So, they thought of something that will
+         come to not only solve the issue but also could be trust-worthy. And that's how was born FAE, a unique way to 
+         get your shoppings delivered by drones.
 
-<section>
-  <h2>Meet the team<h2>
-    
-</section>
+      </p>
+    </section>
 
+    <section>
+      <h2>Meet the team</h2>
+      
+      <p class="member"><img src="pictures/tmp.jpg" alt="Connor Chamoun">
+        Connor Chamoun 
+        <br>Student at the University of Ottawa
+      </p>
+      <p class="member"><img src="pictures/Lolita.jpg" alt="Lolita Inabeza">
+        Lolita Inabeza
+        <br>Student at the University of Ottawa
+      </p>
+      <p class="member"><img src="pictures/tmp.jpg" alt="Omar Ouadouha">
+        Omar Ouadouha
+        <br>Student at the University of Ottawa
+      </p>
+      <p class="member"><img src="pictures/tmp.jpg" alt="Pradyu Vasudev">
+        Pradyu Vasudev 
+        <br>Student at the University of Ottawa
+      </p>
+      <p class="member"><img src="pictures/tmp.jpg" alt="Ramon Sottil Duprat">
+        Ramon Sottil Duprat 
+        <br>Student at the University of Ottawa
+      </p>
+      <p class="member"><img src="pictures/tmp.jpg" alt="Uwase Amalia Cyabukombe">
+        Uwase Amalia Cyabukombe 
+        <br>Student at the University of Ottawa
+      </p>
+     
+    </section>
+  </header>
+  
 </body>
 </html>
