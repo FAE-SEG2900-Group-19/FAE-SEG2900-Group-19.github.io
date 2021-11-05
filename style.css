@@ -40,7 +40,7 @@ header{
     height: 120px;
     margin-left: 50px;
   }
-  img{
+  .teamImages{
     width: 100px;
     border-radius: 90%;
     float: left;
