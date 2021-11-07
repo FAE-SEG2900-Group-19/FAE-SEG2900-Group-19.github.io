@@ -33,20 +33,20 @@
   <br>
   <br>
   <br>
-  <form onsubmit="supportReturn()" name="contactForm" action="#">
+  <form onsubmit="return supportReturn(this)" name="contactForm" action="#">
     <label for="fname">First name:</label>
-    <input type="text" id="fname" name="fname"><br><br>
+    <input type="text" id="fname" name="fname" required/><br><br>
     <label for="lname">Last name:</label>
-    <input type="text" id="lname" name="lname"><br><br>
+    <input type="text" id="lname" name="lname" required/><br><br>
     <label for="email">Email:</label>
-    <input type="text" id="email" name="email"><br><br>
+    <input type="text" id="email" name="email" required/><br><br>
     <label for="phonenum">Phone Number:</label>
-    <input type="text" id="phonenum" name="phonenum"><br><br>
+    <input type="text" id="phonenum" name="phonenum" required /><br><br>
     <p><b>Reason for Contact</b></p>
-    <textarea name="ReasonForContact" id="ReasonForContact" cols="30" rows="10">
+    <textarea name="ReasonForContact" id="ReasonForContact" cols="30" rows="10" required/>
      Enter your message here.
     </textarea>
-    <input type="submit" value="Submit" onclick="supportReturn()">
+    <input type="submit" value="Submit">
   </form>
     <script src="contact.js"></script>
     <script src="intro.js"></script>
