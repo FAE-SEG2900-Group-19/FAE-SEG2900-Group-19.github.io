@@ -48,3 +48,36 @@ header{
   section{
     margin-bottom: 50px;
   }
+  .intro{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    transition: 2s;
+  }
+  .logo-header{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color:white;
+  }
+  .animateLogo{
+    position:relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+  }
+  .animateLogo.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 1s;
+  }
+  .animateLogo.fade{
+    bottom:150px;
+    opacity: 0;
+    transition: ease-in-out 1s;
+  }
