@@ -1,7 +1,6 @@
 let intro = document.querySelector('.intro');
 let animateLogo = document.querySelector('.logo-header');
 let logoSpan=document.querySelectorAll(".animateLogo");
-
 window.addEventListener("DOMContentLoaded",()=>{
 
     setTimeout(()=>{

@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
+  <title>Contact Us</title>
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2022.6">
   <link rel="stylesheet" href="style.css">
@@ -25,11 +25,15 @@
     </div>
 
   </header>
+  <div class="intro">
+    <h1 class="logo-header">
+      <span class='animateLogo'>Customer</span><span class='animateLogo'>&nbsp;Support</span>
+  </div>
   <br>
   <br>
   <br>
   <br>
-  <form action="index.html" method="POST">
+  <form onsubmit="supportReturn()" name="contactForm" action="#">
     <label for="fname">First name:</label>
     <input type="text" id="fname" name="fname"><br><br>
     <label for="lname">Last name:</label>
@@ -42,7 +46,9 @@
     <textarea name="ReasonForContact" id="ReasonForContact" cols="30" rows="10">
      Enter your message here.
     </textarea>
-    <input type="submit" value="Submit" onclick="returnInfo()">
-    </form>
+    <input type="submit" value="Submit" onclick="supportReturn()">
+  </form>
+    <script src="contact.js"></script>
+    <script src="intro.js"></script>
 </body>
 </html>
