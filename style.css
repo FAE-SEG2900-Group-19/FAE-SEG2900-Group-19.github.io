@@ -1,4 +1,21 @@
+<<<<<<< HEAD
   .about_header{
+=======
+              
+  div a{
+   padding:6px;
+   text-align: center;
+   text-decoration: none;
+   justify-content: space-around;
+  }
+  #logo{
+    font-family: Arial;
+    font-size: xx-large;
+    display: inline-flex;
+    width: 100%;
+  }
+  h1, h2{
+>>>>>>> 313764256eb55dffa1439cc0d63e7a400049ecd0
     text-align: center;
     margin: 20px;
     color: #5C8552;
@@ -36,7 +53,7 @@
     top: 0;
     width: 100%;
     height: 100vh;
-    background-color: aqua;
+    background-color: #5C8552;
     transition: 2s;
   }
   .logo-header{
@@ -154,7 +171,6 @@ button:hover{
   border-color:#5C8552;
 
 }
-
 /* Locations Section */
 
 }
@@ -192,7 +208,16 @@ body{
   transition: .6s linear;
 }
 
-
+#contact_form{
+  background-color: #171717;
+  font-family: "Calibri", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+#reason_cont{
+  float: left;
+}
 .tab-one .locations-header{
   background-color: #5C8552;
   display: inline-block;

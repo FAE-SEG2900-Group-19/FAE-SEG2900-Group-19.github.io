@@ -8,22 +8,23 @@
   <meta name="CocoaVersion" content="2022.6">
   <link rel="stylesheet" href="style.css">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
   </style>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Calibri" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
 </head>
-<body>
+<body id='contact_form'> 
   <header>
-    <div id="header_menu">
-      <a href="index.html">Home</a>
-      <a href="our drones.html">Our drones</a>
-      <a href="pricing.html">Pricing</a>
-      <a href="about.html">About Us</a>
-      <a href="locations.html">Office Locations</a>
-      <a href="contact.html">Customer Support</a>
-      <div id="menu_spacing"></div>
-      <div><b id="logo">F.A.E</b></div>
-    </div>
-
+    <nav>
+          <ul class="nav__links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="our drones.html">Our Drones</a></li>
+              <li><a href="locations.html">Locations</a></li>
+              <li><a href="pricing.html">Pricing</a></li>                 
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Customer Support</a></li>    
+          </ul>
+      </nav>
   </header>
   <div class="intro">
     <h1 class="logo-header">
@@ -42,7 +43,7 @@
     <input type="text" id="email" name="email" required/><br><br>
     <label for="phonenum">Phone Number:</label>
     <input type="text" id="phonenum" name="phonenum" required /><br><br>
-    <p><b>Reason for Contact</b></p>
+    <p id="reason_cont"><b>Reason for Contact</b></p>
     <textarea name="ReasonForContact" id="ReasonForContact" cols="30" rows="10" required/>
      Enter your message here.
     </textarea>
