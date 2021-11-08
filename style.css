@@ -2,7 +2,9 @@
     text-align: center;
     margin: 20px;
     color: #5C8552;
-    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 400;
   }
   p{
     font-size: medium;
@@ -22,8 +24,8 @@
   }
   .about_sections{
     margin-bottom: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
     padding-bottom: 30px;
     background-color: white;
     border-radius: 40px;
@@ -158,7 +160,7 @@ button:hover{
 
 
 
-body{ 
+#body{ 
   background-image: linear-gradient(150deg,#171717,#171717 );
   min-height: 100vh;
   min-width: 100vh;
