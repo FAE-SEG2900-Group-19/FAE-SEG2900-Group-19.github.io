@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link href="https://fonts.googleapis.com/css?family=Calibri" rel="stylesheet">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header>
@@ -29,32 +30,40 @@
     <h1 class="logo-header">
       <span class='animateLogo'>F.</span><span class='animateLogo'>A.</span><span class='animateLogo'>E</span>
     </h1>
-  </div>
+  </div> 
+  <div id ="mainDiv">
   <br><br><br><br>
-      <h1><b><u>What we do...</u></b></h1>
-      <p>We are Fast and Efficient or F.A.E for short. We aim
+      <h1 id="title"><b><span>W</span><span>h</span><span>a</span><span>t</span>&nbsp;<span>W</span><span>e</span>&nbsp;<span>D</span><span>o</span></b></h1>
+      <div id="firstTwoParas">
+      <p id="firstPara">We are Fast and Efficient or F.A.E for short. We aim
         for effiency and speed over all else, as you could already tell from the name.
         Our balance of these two concepts plus our exceptional quality when it comes to a mailing
         service allow us to stay on top of the game, ensuring you and your packages end up in the right hands,
         in record speed. 
       </p>
-      <h3><u>Our Motto: Fast and Efficient!</u></h3>
-      <h3><b><u>Our History:</u></b></h3>
-      <p>Fast and Efficient, or F.A.E for short started when a few students complained about manual delivery and
+      <p><i class="arrow right"></i></p>
+      <p id="secondPara">Fast and Efficient, or F.A.E for short started when a few students complained about manual delivery and
         how <b>stressful</b> it was for deliverers to make fast and efficient deliveries
         several times a day. We were able to develop a propietary algorithm that cut down
         on any wasted time for deliveries and got packages out to people as soon as possible.
-        The problem was <u>humans</u> could not fill the parameters for the algorithm. Our team 
-        managed to cooperate with several robotics companies around the world to build a propietary drone
-        to go along with our specific algorithm. Our service, <i><b>Dronelivery</b></i> is our flagship,
-        allowing us to get packages to the people as soon as robotically possible.
       </p>
-   <h3><b>Dronelivery:</b></h3>
-   <p>
+      <p><i class="arrow right"></i></p>
+   <p id='thirdPara'>
+    The problem was <u>humans</u> could not fill the parameters for the algorithm. Our team 
+    managed to cooperate with several robotics companies around the world to build a propietary drone
+    to go along with our specific algorithm. Our service, <i><b>Dronelivery</b></i> is our flagship,
+    allowing us to get packages to the people as soon as robotically possible.
+   </p>
+   <p><i class="arrow right"></i></p>
+   <p id="fourthPara">
      <b>Dronelivery</b> allows us to stay ahead of the competition and offer Fast and Efficient services.
      We are partenered with many stores worldwide, as well as do some outsourcing for Amazon. Time and time again,
      our algorithm paired with our drones allow us to beat out our competition, and provide you with the best delivery service
      you could ask for.
      <script src="intro.js"></script>
+     <script src="titleanimation.js"></script>
+     <script src="textanimation.js"></script>
+    </div>
+  </div>
 </body>
 </html>

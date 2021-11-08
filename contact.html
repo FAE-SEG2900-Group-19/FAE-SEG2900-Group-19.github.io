@@ -8,6 +8,30 @@
   <meta name="CocoaVersion" content="2022.6">
   <link rel="stylesheet" href="style.css">
   <style type="text/css">
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #49CC61;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #54805C;
+}
+
   </style>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
    <link href="https://fonts.googleapis.com/css?family=Calibri" rel="stylesheet">
@@ -34,6 +58,7 @@
   <br>
   <br>
   <br>
+<h1>Contact Us</h1>
   <form onsubmit="return supportReturn(this)" name="contactForm" action="#">
     <label for="fname">First name:</label>
     <input type="text" id="fname" name="fname" required/><br><br>
@@ -43,7 +68,7 @@
     <input type="text" id="email" name="email" required/><br><br>
     <label for="phonenum">Phone Number:</label>
     <input type="text" id="phonenum" name="phonenum" required /><br><br>
-    <p id="reason_cont"><b>Reason for Contact</b></p>
+    <p id="reason_cont">Reason for Contact</p>
     <textarea name="ReasonForContact" id="ReasonForContact" cols="30" rows="10" required/>
      Enter your message here.
     </textarea>
