@@ -1,21 +1,4 @@
-<<<<<<< HEAD
   .about_header{
-=======
-              
-  div a{
-   padding:6px;
-   text-align: center;
-   text-decoration: none;
-   justify-content: space-around;
-  }
-  #logo{
-    font-family: Arial;
-    font-size: xx-large;
-    display: inline-flex;
-    width: 100%;
-  }
-  h1, h2{
->>>>>>> 313764256eb55dffa1439cc0d63e7a400049ecd0
     text-align: center;
     margin: 20px;
     color: #5C8552;
@@ -173,7 +156,7 @@ button:hover{
 }
 /* Locations Section */
 
-}
+
 
 body{ 
   background-image: linear-gradient(150deg,#171717,#171717 );
