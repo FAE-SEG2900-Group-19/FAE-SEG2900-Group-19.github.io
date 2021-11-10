@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(0,0,0,0)),url(drone3.jfif);
+    background-size: cover ;
+    color: white;
+}
+#title{
+    text-align: center;
+    font-weight: 800;
+}
+
+.para {
+    border-radius: 25px;
+    width: 80%;
+    margin: 2%;
+    background-color: darkgreen;
+    padding: 20px;
+    width: 650px;
+    height: 230px;
+    float: left;
+}
+
+.mainTitle {
+    font-size:  50px ;
+    text-align: left;
+}
