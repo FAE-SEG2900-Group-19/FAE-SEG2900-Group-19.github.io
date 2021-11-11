@@ -21,7 +21,9 @@
     background-color: black;
 }
 #button{
-    position:relative; left: 600px;
+    text-align: center;
+    margin: auto;
+    display: flex;
 }
 #first-title,#second-title,#third-title{
     text-align: center;
