@@ -1,0 +1,54 @@
+#list-first,#list-second,#list-third{
+    display: table;
+    margin: 0 auto;
+}   
+#card-title-1,#card-title-2,#card-title-3{
+    background-color: black;
+    border-radius:10px;
+}
+#Body{
+    background-color: black;
+}
+#first,#second,#third{
+    border-color:black;
+    border-width:.25em;
+    border-style:double;
+    border-radius: 25px;
+    border-color: #5C855D;
+    padding: 20px;
+    width:auto;
+    height: auto;
+    background-color: black;
+}
+#button{
+    position:relative; left: 600px;
+}
+#first-title,#second-title,#third-title{
+    text-align: center;
+    margin: 20px;
+    color: #5C8552;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #5C855D;
+    text-align: center;
+}
+#firstlist,#secondlist,#thirdlist{
+    text-align: center;
+    margin: 20px;
+    color: #5C8552;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #5C855D;
+}
+    
+
+
+
+
+
+
+
+
+
+
